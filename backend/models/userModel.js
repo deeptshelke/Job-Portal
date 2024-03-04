@@ -32,10 +32,10 @@ const userSchema = new mongoose.Schema({
         minlength: [6, 'password must have at least (6) characters'],
     },
 
-    // role:{
-    //     type: Number,
-    //     default: 0
-    // }
+    role:{
+        type: Number,
+        default: 0
+    }
 }, {timestamps:true})
 
 
